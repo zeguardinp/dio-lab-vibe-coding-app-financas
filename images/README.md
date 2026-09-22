@@ -1,13 +1,9 @@
-# Evidências do projeto
+# Evidências do FinPath AI
 
-Adicione nesta pasta os prints ou GIFs utilizados para demonstrar as interações com IA durante o desenvolvimento do FinPath AI.
+Esta pasta reúne os registros visuais utilizados na documentação do desafio.
 
-Sugestão de nomes:
+## Arquivos
 
-- 01-prd.png
-- 02-primeira-versao.png
-- 03-refinamento.png
-- 04-dashboard.png
-- 05-resultado-final.png
+- `lovable-processo.svg` — registro visual consolidado das interações realizadas no Lovable: envio do PRD, refinamento e conclusão do MVP.
 
-Depois de adicionar as imagens, atualize a seção **Evidências das interações com IA** no README principal para exibi-las.
+A captura do resultado final do aplicativo é servida diretamente pelo Lovable e está incorporada no `README.md` principal, junto do link para a prévia interativa do projeto.
