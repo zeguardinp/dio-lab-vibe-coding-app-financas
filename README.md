@@ -1,89 +1,323 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 FinPath AI
 
-Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
+Aplicativo conceitual de organização de finanças pessoais com Inteligência Artificial, desenvolvido como parte do desafio **App de Organização de Finanças Pessoais com Vibe Coding**, da DIO.
 
-## ✨ O que é Vibe Coding
+> **Status:** MVP conceitual em desenvolvimento.
 
-**Vibe Coding** é uma forma leve e criativa de desenvolver com IA, baseada em **conversas naturais e bem estruturadas**. Você não precisa escrever código linha por linha. Em vez disso, aprende a **guiar a IA** descrevendo suas ideias de forma clara, com **intenção e contexto**. Em outras palavras:
+## 📌 Sobre o projeto
 
-> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
+O **FinPath AI** foi pensado para tornar o controle financeiro pessoal mais simples, principalmente para pessoas que estão começando a administrar o próprio dinheiro.
 
-## 🎯 Desafio
+Em vez de depender de planilhas, formulários extensos ou registros manuais, o usuário pode conversar com o aplicativo em linguagem natural.
 
-Problema: Muitas pessoas não conseguem manter um controle financeiro porque os aplicativos exigem muita entrada de dados manual, e a criação de orçamentos é vista como algo tedioso. 
+Exemplo:
 
-Precisamos de uma solução que permita **controlar as finanças por meio de uma conversa simples**, com **agentes de IA** capazes de criar **planos de economia personalizados e automatizados**. Você deve utilizar as ideias de **Vibe Coding** e **MVP (Produto Mínimo Viável)** para desenvolver o **conceito de um aplicativo** que resolva o problema citado.
+> "Gastei R$ 32 no almoço hoje."
 
-> [!IMPORTANT]
-> Você **não precisa construir o código**! O foco está em **usar a IA como sua parceira criativa**, transformando boas ideias e prompts em conceitos funcionais que simulam um produto real.
+A IA interpreta a mensagem, identifica o valor, a categoria e a data e registra a transação.
 
-## 🪄 Etapas do Desafio
+Também é possível criar metas de forma natural:
 
-### 1. Saber o que Pedir é a Chave! Otimize seus Prompts!
+> "Quero juntar R$ 2.000 até janeiro para comprar um computador."
 
-Antes de pedir para a IA "criar um app", é importante definir com clareza o que você quer construir e por quê. Para isso, você vai criar um **PRD (Product Requirements Document)** simplificado, uma especificação que serve como _briefing_ para a IA entender sua ideia.
+A partir disso, o aplicativo pode calcular uma meta mensal, acompanhar o progresso e oferecer orientações simples com base nos dados cadastrados.
 
-Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
+## 🎯 Problema
 
-```txt
-# Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+Muitas pessoas começam a utilizar aplicativos de controle financeiro, mas abandonam o hábito porque precisam registrar manualmente cada gasto, selecionar categorias e interpretar relatórios que nem sempre são intuitivos.
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+Além disso, apenas mostrar quanto foi gasto não necessariamente ajuda o usuário a entender o que fazer com aquela informação.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+## 💡 Solução proposta
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+O FinPath AI utiliza uma experiência conversacional para:
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+- registrar receitas e despesas;
+- classificar transações automaticamente;
+- acompanhar metas financeiras;
+- apresentar um resumo simples da situação financeira;
+- identificar padrões de gastos;
+- oferecer orientações educativas por meio de um Agente Financeiro com IA.
+
+## 👥 Público-alvo
+
+O foco principal são jovens e adultos que estão começando a organizar suas finanças, incluindo:
+
+- estudantes;
+- pessoas no primeiro emprego;
+- profissionais com renda variável;
+- usuários que consideram planilhas e aplicativos financeiros tradicionais complexos ou trabalhosos.
+
+## 🚀 Funcionalidades principais do MVP
+
+### 1. Registro financeiro por conversa
+
+O usuário registra receitas e despesas utilizando linguagem natural.
+
+Exemplo:
+
+> "Recebi R$ 800 do estágio."
+
+A IA identifica o valor, o tipo da transação e uma categoria adequada.
+
+### 2. Classificação automática
+
+As transações podem ser classificadas automaticamente em categorias como:
+
+- alimentação;
+- transporte;
+- educação;
+- lazer;
+- moradia;
+- compras;
+- saúde;
+- renda.
+
+O usuário continua podendo corrigir a categoria quando necessário.
+
+### 3. Dashboard financeiro
+
+Uma tela simples apresenta informações como:
+
+- saldo atual;
+- receitas do mês;
+- despesas do mês;
+- principais categorias de gastos;
+- evolução dos gastos.
+
+### 4. Metas financeiras
+
+O usuário pode definir objetivos em linguagem natural.
+
+Exemplo:
+
+> "Quero juntar R$ 3.000 em seis meses."
+
+O aplicativo calcula uma meta mensal e apresenta o progresso ao longo do tempo.
+
+### 5. Agente Financeiro com IA
+
+Um agente analisa as informações registradas e apresenta observações educativas e personalizadas.
+
+Exemplo:
+
+> "Seus gastos com alimentação fora de casa aumentaram neste mês. Reduzir parte desse valor pode ajudar você a avançar mais rapidamente em sua meta."
+
+O agente não substitui aconselhamento financeiro profissional e deve evitar apresentar previsões ou recomendações como garantias.
+
+---
+
+# 🧠 Prompt final / PRD
+
+## Contexto
+
+Quero criar o conceito de um aplicativo de organização de finanças pessoais chamado **FinPath AI**.
+
+O aplicativo terá como principal diferencial permitir que o usuário controle sua vida financeira por meio de conversas em linguagem natural, evitando a necessidade de preencher diversos formulários, planilhas ou categorias manualmente.
+
+A proposta é transformar o controle financeiro em uma atividade simples, rápida e acessível, especialmente para pessoas que estão começando a administrar o próprio dinheiro.
+
+## Problema
+
+Muitas pessoas começam a utilizar aplicativos de controle financeiro, mas abandonam o hábito porque precisam registrar manualmente cada gasto, escolher categorias, atualizar valores e interpretar relatórios complexos.
+
+Além disso, saber quanto foi gasto nem sempre ajuda o usuário a entender **o que fazer com aquela informação**.
+
+O FinPath AI pretende resolver esses dois problemas utilizando inteligência artificial para automatizar registros e transformar os dados financeiros em orientações simples e práticas.
+
+## Público-alvo
+
+O público principal são jovens e adultos que estão começando a organizar suas finanças e procuram uma ferramenta fácil de utilizar.
+
+O aplicativo também pode atender estudantes, pessoas no primeiro emprego, profissionais com renda variável ou qualquer usuário que considere planilhas e aplicativos financeiros tradicionais complexos ou trabalhosos.
+
+## Proposta de valor
+
+Permitir que uma pessoa organize suas finanças da mesma maneira que conversaria com alguém.
+
+Em vez de preencher manualmente valor, categoria, descrição, data e tipo da transação, o usuário poderia simplesmente escrever:
+
+> "Gastei R$ 45 no mercado hoje."
+
+A IA interpretaria a mensagem e registraria automaticamente a transação.
+
+## Funcionalidades-chave
+
+1. Registrar receitas e despesas via chat em linguagem natural.
+2. Classificar automaticamente as transações.
+3. Exibir um dashboard financeiro simples.
+4. Criar e acompanhar metas financeiras.
+5. Oferecer orientações por meio de um Agente Financeiro com IA.
+
+## Fluxo principal
+
+1. O usuário acessa o aplicativo.
+2. Visualiza um resumo financeiro.
+3. Abre o chat.
+4. Informa uma receita, despesa, dúvida ou meta.
+5. A IA interpreta a mensagem.
+6. O usuário confirma ou corrige a informação.
+7. O sistema atualiza automaticamente o dashboard e as metas.
+8. O agente financeiro pode apresentar orientações baseadas nos novos dados.
+
+## Telas do MVP
+
+O MVP deverá possuir:
+
+- Tela inicial / dashboard;
+- Chat financeiro;
+- Histórico de transações;
+- Metas financeiras;
+- Área de análise do Agente Financeiro.
+
+## Comportamento do Agente Financeiro
+
+O agente deverá utilizar linguagem simples, amigável e objetiva.
+
+Ele deverá:
+
+- explicar padrões de gastos;
+- ajudar na criação de metas;
+- identificar gastos recorrentes;
+- mostrar possíveis oportunidades de economia;
+- explicar conceitos financeiros quando necessário;
+- evitar julgamentos sobre as escolhas do usuário.
+
+O objetivo não é substituir um profissional financeiro, mas ajudar o usuário a compreender melhor sua própria situação.
+
+## Validação do MVP
+
+O MVP poderá ser testado inicialmente com um pequeno grupo de usuários.
+
+A validação deverá observar:
+
+- facilidade para registrar uma transação;
+- quantidade de registros feitos sem correção;
+- compreensão dos relatórios;
+- frequência de utilização;
+- quantidade de usuários que criam uma meta;
+- percepção de utilidade das sugestões da IA.
+
+Também deverá ser perguntado aos usuários se controlar as finanças pelo chat foi mais simples do que utilizar formulários tradicionais.
+
+## Entregável esperado da IA
+
+Com base neste PRD:
+
+1. Desenvolva o conceito visual e funcional do MVP.
+2. Defina o fluxo entre as telas.
+3. Proponha uma interface simples e moderna.
+4. Simule o funcionamento do chat financeiro.
+5. Defina como o Agente Financeiro deverá responder.
+6. Apresente os recursos necessários para o MVP.
+7. Sugira uma estratégia simples de validação com usuários.
+
+Priorize uma experiência intuitiva, acessível para iniciantes e compatível com dispositivos móveis.
+
+Utilize português brasileiro e linguagem simples.
+
+---
+
+## 🔄 Fluxo conceitual do MVP
+
+```text
+Dashboard
+   ↓
+Chat Financeiro
+   ↓
+Interpretação da IA
+   ↓
+Confirmação do usuário
+   ↓
+Registro da transação
+   ↓
+Atualização do Dashboard
+   ↓
+Metas e análises
+   ↓
+Agente Financeiro
 ```
 
-Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
+## 🤖 Exemplo de interação
 
-> [!TIP]
-> Pense no PRD/Prompt como “o briefing que a IA precisa para entender sua vibe”. Portanto, quanto mais claro e intencional for o texto, mais próximas do ideal serão as respostas da IA.
+**Usuário**
 
-### 2. Explorando o Lovable na Prática
+> Gastei R$ 28 no almoço hoje.
 
-Com seu PRD pronto e revisado, é hora de colocar a IA em ação. Abra o Lovable, cole seu prompt completo e peça o plano inicial do MVP do seu aplicativo. Como o plano gratuito limita você a 5 interações por dia, seja estratégico:
-- Faça perguntas diretas e construtivas, como “crie o fluxo de telas com base nas funcionalidades listadas” ou “gere uma versão resumida do plano de MVP”;
-- Priorize clareza nas instruções para aproveitar ao máximo cada resposta;
+**FinPath AI**
 
-Durante essa etapa, você pode orientar a IA para três entregas principais:
-1. Agente Financeiro: defina o comportamento e o tom de voz de um consultor financeiro pessoal, alinhado ao público e objetivo do app.
-2. Fluxo de Telas: peça à IA para gerar o fluxo conceitual de telas com base nas funcionalidades descritas no PRD, simulando a interação por conversa.
-3. Plano de MVP: solicite um resumo das 5 funcionalidades principais, dos recursos necessários e um plano de validação inicial (como medir se o app cumpre seu propósito).
+> Identifiquei uma despesa de R$ 28 em Alimentação para hoje. Deseja confirmar?
 
-> [!TIP]
-> Se preferir, você pode fazer tudo com o **Copilot**. O importante é exercitar a habilidade de transformar intenções em instruções claras e testar os limites da IA como parceira criativa.
+**Usuário**
 
-### 3. Entregando o Desafio na DIO
+> Sim.
 
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
+**FinPath AI**
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+> Registrado. Seus gastos com alimentação neste mês foram atualizados no painel.
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+---
 
-## 💬 Conclusão
+## 🖼️ Evidências das interações com IA
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+Esta seção será atualizada com os registros das etapas de criação e refinamento do projeto.
+
+Arquivos planejados:
+
+- `images/01-prd.png` — envio do PRD para a IA;
+- `images/02-primeira-versao.png` — primeira proposta do MVP;
+- `images/03-refinamento.png` — interação de melhoria;
+- `images/04-dashboard.png` — dashboard ou interface criada;
+- `images/05-resultado-final.png` — resultado final do conceito.
+
+> As imagens serão adicionadas após as interações com Copilot, Lovable ou outra ferramenta de IA utilizada no desenvolvimento do conceito.
+
+## 🧪 Plano de validação
+
+Para validar a proposta do FinPath AI, o MVP pode ser apresentado a um pequeno grupo de usuários e avaliado por critérios como:
+
+- rapidez para registrar uma despesa;
+- precisão da classificação automática;
+- facilidade para compreender o dashboard;
+- facilidade para criar uma meta;
+- utilidade percebida das análises da IA;
+- preferência entre registro por conversa e formulários tradicionais.
+
+## 📝 Reflexão sobre o processo
+
+Até esta etapa, o principal aprendizado foi perceber que a qualidade da resposta da IA depende diretamente da qualidade das instruções fornecidas.
+
+Um pedido genérico como "crie um aplicativo financeiro" deixa muitas decisões abertas para a ferramenta. Ao transformar a ideia em um PRD, definindo problema, público-alvo, funcionalidades, comportamento da IA, fluxo e critérios de validação, o resultado esperado fica muito mais claro.
+
+O processo também mostrou que Vibe Coding não significa apenas pedir para uma IA gerar alguma coisa. A parte mais importante está em definir o problema, avaliar o resultado produzido e refinar as instruções até que a solução fique coerente com o objetivo inicial.
+
+Esta reflexão será complementada após as etapas de prototipação e refinamento do MVP.
+
+## 📚 Tecnologias e ferramentas
+
+- Inteligência Artificial generativa;
+- Copilot e/ou Lovable;
+- GitHub;
+- conceitos de Vibe Coding;
+- conceitos de MVP;
+- elaboração de PRD.
+
+## ✅ Checklist do desafio
+
+- [x] Fork do repositório-base;
+- [x] Definição do conceito do aplicativo;
+- [x] Criação do PRD;
+- [x] Definição das funcionalidades principais;
+- [x] Definição do fluxo conceitual;
+- [ ] Executar o PRD em uma ferramenta de IA;
+- [ ] Refinar o MVP por meio de novas interações;
+- [ ] Adicionar prints ou vídeos das interações;
+- [ ] Complementar a reflexão final;
+- [ ] Revisar o README;
+- [ ] Entregar o link do repositório na plataforma da DIO.
+
+---
+
+## 🎓 Desafio DIO
+
+Projeto desenvolvido para o desafio **App de Organização de Finanças Pessoais com Vibe Coding**, com foco na criação de um conceito de produto utilizando IA como parceira no processo de ideação, especificação e refinamento.
