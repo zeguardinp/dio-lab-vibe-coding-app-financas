@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" rx="36" fill="#151515"/>
+  <rect x="28" y="28" width="1144" height="844" rx="28" fill="#202020" stroke="#353535" stroke-width="2"/>
+  <text x="70" y="88" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="34" font-weight="700">FinPath AI • Processo no Lovable</text>
+  <text x="70" y="124" fill="#A9A9A9" font-family="Arial, sans-serif" font-size="18">Registro visual consolidado a partir das interações realizadas durante o desafio.</text>
+
+  <circle cx="88" cy="184" r="22" fill="#0A8AC1"/>
+  <text x="81" y="192" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">1</text>
+  <text x="128" y="190" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Prompt / PRD enviado</text>
+
+  <rect x="70" y="218" width="1060" height="220" rx="24" fill="#2A2A2A" stroke="#444444"/>
+  <text x="100" y="262" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="21" font-weight="700">“Crie um MVP visual e funcional para um aplicativo chamado FinPath AI.”</text>
+  <text x="100" y="305" fill="#D8D8D8" font-family="Arial, sans-serif" font-size="18">Objetivo: organização financeira pessoal com IA e conversas em linguagem natural.</text>
+  <text x="100" y="340" fill="#D8D8D8" font-family="Arial, sans-serif" font-size="18">Telas: Dashboard • Chat Financeiro • Transações • Metas • Agente Financeiro.</text>
+  <text x="100" y="375" fill="#D8D8D8" font-family="Arial, sans-serif" font-size="18">Direção: interface moderna, limpa, responsiva, em português brasileiro e pronta para portfólio.</text>
+  <text x="100" y="410" fill="#7FE8C4" font-family="Arial, sans-serif" font-size="17">Dados demonstrativos + interações simuladas + foco em clareza do MVP.</text>
+
+  <circle cx="88" cy="500" r="22" fill="#0A8AC1"/>
+  <text x="81" y="508" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">2</text>
+  <text x="128" y="506" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Refinamento da execução</text>
+
+  <rect x="70" y="534" width="1060" height="120" rx="24" fill="#343434" stroke="#4B4B4B"/>
+  <text x="100" y="577" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="19">“Pode prosseguir com a implementação exatamente conforme o plano apresentado.”</text>
+  <text x="100" y="612" fill="#D8D8D8" font-family="Arial, sans-serif" font-size="17">Prioridade para qualidade visual, responsividade, cinco telas claras e interações demonstráveis.</text>
+
+  <circle cx="88" cy="716" r="22" fill="#17B779"/>
+  <text x="81" y="724" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">3</text>
+  <text x="128" y="722" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">Resultado do Lovable</text>
+
+  <rect x="70" y="750" width="1060" height="82" rx="24" fill="#163D35" stroke="#25745E"/>
+  <text x="100" y="786" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="19" font-weight="700">MVP implementado com as cinco telas, dados demonstrativos e interações funcionais de front-end.</text>
+  <text x="100" y="816" fill="#A6F3D6" font-family="Arial, sans-serif" font-size="16">Chat, metas, filtros, dashboard e responsividade validados no protótipo.</text>
+</svg>
