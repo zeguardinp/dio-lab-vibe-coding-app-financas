@@ -332,7 +332,7 @@ O processo mostrou, portanto, que trabalhar bem com IA envolve **definir context
 - [x] Geração do MVP visual;
 - [x] Reflexão final;
 - [x] Revisão do README;
-- [ ] Entrega do link público do repositório na plataforma da DIO.
+- [x] Entrega do link público do repositório na plataforma da DIO.
 
 ---
 
